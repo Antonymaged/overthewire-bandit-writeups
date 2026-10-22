@@ -53,6 +53,5 @@ start an encrypted connection using ssh by specifying the user (**<span style="c
 
 # POC
 
-![[level0part1.png]]
-
-![[level0part2.png]]
+![Level 0 - Part 1](level0part1.png)
+![Level 0 - Part 2](level0part2.png)
