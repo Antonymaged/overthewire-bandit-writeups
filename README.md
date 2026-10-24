@@ -17,11 +17,20 @@ This repository is part of my hands-on learning journey in cybersecurity, focusi
 ```text
 bandit-security-notes/
 ├── README.md
-└── levels/
-    ├── level-00-to-01.md
-    ├── level-01-to-02.md
-    ├── level-02-to-03.md
-    └── ...
+└── walkthoughs/
+|    ├── level-0.md
+|    ├── level 0 -> level 1.md
+|    ├── level 1 -> level 2.md
+|    └── ...
+└── photos/
+	 ├── level 0
+	 |	 ├── level-0-part-1.png
+	 |	 ├── level-0-part-2.png
+	 |	 └── ...
+	 ├── level-0-to-1
+	 |	 ├── level-0-to-1-part-1.png
+	 |	 └── ...
+	 └─── ...
 ```
 
 Each Markdown file documents one level transition and contains the approach, commands used, explanations, and key takeaways.
@@ -40,19 +49,6 @@ Topics will be added as I progress through the challenges, including:
 - Environment variables and processes
 - Basic networking concepts
 - Problem-solving with standard Linux utilities
-
-## 📝 Write-up Format
-
-Each level write-up aims to include:
-
-1. **Objective** — A brief summary of the challenge.
-2. **Approach** — How I investigated the problem.
-3. **Commands Used** — The commands required to solve it.
-4. **Explanation** — Why the commands work and what they do.
-5. **Key Concepts** — The underlying Linux or security concepts.
-6. **Lessons Learned** — Important takeaways and alternative approaches.
-7. **References** — Official documentation and relevant manual pages.
-
 ## 📈 Progress
 
 Progress will be documented through individual level write-ups as I complete the challenges.
@@ -83,7 +79,7 @@ This is a personal learning project documenting my development in Linux, cyberse
 
 The repository will evolve as I complete more challenges and deepen my understanding of the concepts involved.
 
-## every level walkthrough file structure
+## 📝 Every level walkthrough file structure
 
 ### Objective
 

@@ -6,7 +6,7 @@ In this challenge, the goal is to connect to the Bandit server using SSH with th
 
 # Approach
 
-start an encrypted connection using ssh by specifying the user (**<span style="color:lightgreen; font-size: 20px">bandit0</span>**) password (**<span style="color:lightgreen; font-size:20px;">bandit0</span>**) to the domain name **<span style="color:lightblue;">bandit.labs.overthewire.org</span>** with port number **<span style="color:lightblue;">2220</span>** 
+start an encrypted connection using #ssh by specifying the user (**<span style="color:lightgreen; font-size: 20px">bandit0</span>**) password (**<span style="color:lightgreen; font-size:20px;">bandit0</span>**) to the domain name **<span style="color:lightblue;">bandit.labs.overthewire.org</span>** with port number **<span style="color:lightblue;">2220</span>** 
 
 # Commands Used
 
@@ -35,6 +35,7 @@ start an encrypted connection using ssh by specifying the user (**<span style="c
 
 #### \<password> --> if we chose yes then it prompt us to type a password of the user we try to connect to
 
+#### cat <file_name> --> to read the contents of the readme file to get the password for the next level
 # Key Concepts
 
 - **SSH (Secure Shell):** An encrypted protocol used to access and manage remote machines securely over a network.
@@ -53,6 +54,6 @@ start an encrypted connection using ssh by specifying the user (**<span style="c
 
 # POC
 
-![Level 0 - Part 1](../photos/level%200/level0part1.png)
+![Level 0 - Part 1](level-0-part-1.png)
 
-![Level 0 - Part 2](../photos/level%200/level0part2.png)
+![Level 0 - Part 2](level-0-part-2.png)
