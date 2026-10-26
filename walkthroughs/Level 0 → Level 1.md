@@ -56,4 +56,4 @@ start an encrypted connection using #ssh by specifying the user (**<span style="
 
 ![level-0-to-1-part-1](../photos/level-0-to-1/level-0-to-1-part-1.png)
 
-![Level 0 - Part 1](level-0-to-1-part-2.png)
+![Level 0 - Part 1](../photos/level-0-to-1/level-0-to-1-part-2.png)
