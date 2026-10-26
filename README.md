@@ -55,11 +55,10 @@ Progress will be documented through individual level write-ups as I complete the
 
 | Level transition | Documentation |
 | ---------------- | ------------- |
-| Bandit 0 → 1     | Planned       |
-| Bandit 1 → 2     | Planned       |
-| Bandit 2 → 3     | Planned       |
+| Bandit 0 → 1     | Documented    |
+| Bandit 1 → 2     | Documented    |
+| Bandit 2 → 3     | Documented    |
 
-*The progress table will be updated as new write-ups are added.*
 
 ## ⚠️ Spoilers and Credentials
 

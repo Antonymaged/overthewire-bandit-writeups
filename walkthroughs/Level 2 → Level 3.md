@@ -23,7 +23,7 @@ start an encrypted connection using #ssh by specifying the user (**<span style="
 	~ <password_from_the_last_level>
 	~ cd # or cd $HOME
 	~ ls -la # to read all the current directory contents even the hiden one and                  data about each one
-	~ cat ./--spaces\ in\ this\ filename-- #the trick here is the file name	
+	~ cat ./--spaces\ in\ this\ filename-- #the trick here is the file name                  contains spaces so we use the escape chat \ to escape the part after it            from being interpreted as a part of the command
 ```
 
 # Explanation
