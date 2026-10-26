@@ -10,6 +10,8 @@ start an encrypted connection using #ssh by specifying the user (**<span style="
 
 # Commands Used
 
+**`~`** means a new step or command not  a part of the command itself you shouldn't write it every with every new command
+
 ``` bash
 	~ ssh <user_name>@<domain_name> -p <port_number>
 	~ yes # you will need it in the first time you connecet to the target to trust             the other device to connect using ssh

@@ -7,6 +7,8 @@ start an encrypted connection using #ssh by specifying the user (**<span style="
 
 # Commands Used
 
+**`~`** means a new step or command not  a part of the command itself you shouldn't write it every with every new command
+
 ``` bash
 	~ ssh <user_name>@<domain_name> -p <port_number>
 	~ <type_the_password> # for the user you have obtained from the last level

@@ -7,6 +7,8 @@ This level introduces basic Linux file navigation and file-reading commands. The
 start an encrypted connection using #ssh by specifying the user (**<span style="color:lightgreen; font-size: 20px">bandit1</span>**) password (**<span style="color:lightgreen; font-size:20px;">obtained from the last level readme file</span>**) to the domain name **<span style="color:lightblue;">bandit.labs.overthewire.org</span>** with port number **<span style="color:lightblue;">2220</span>** 
 # Commands Used
 
+**`~`** means a new step or command not  a part of the command itself you shouldn't write it every with every new command
+
 ``` bash
 	~ ssh <user_name>@<domain_name> -p <port_number>
 	~ <type_the_password> # for the user you have obtained from the last level
