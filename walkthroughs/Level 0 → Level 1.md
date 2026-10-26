@@ -14,7 +14,7 @@ start an encrypted connection using #ssh by specifying the user (**<span style="
 
 ``` bash
 	~ ssh <user_name>@<domain_name> -p <port_number>
-	~ yes # you will need it in the first time you connecet to the target to trust             the other device to connect using ssh
+	~ yes # you will need it in the first time you connecet to the target to trust             the other device to connect using ssh and it's a reply for a prompt
 	~ <type_the_password> # you will be promted to enter the password of the user                              you are tring to connect to
 	~ cat <file_to_Read> #(the Readme file which containg the password for the 
 						 #next level)
