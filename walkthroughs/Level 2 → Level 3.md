@@ -43,7 +43,7 @@ start an encrypted connection using #ssh by specifying the user (**<span style="
 
 - **SSH (Secure Shell):** An encrypted protocol used to connect to remote machines. The command `ssh <username>@<hostname> -p <port>` specifies the account, host, and port.
     
-- **Linux File Paths:** `./` refers to the current directory Using `./--spaces\ in\ this\ filename--` specifies a file named `--spaces\ in\ this\ filename--` and prevents it from being interpreted as a command-line option.
+- **Linux File Paths:** `./` refers to the current directory Using `./--spaces\ in\ this\ filename--` specifies a file named `--spaces in this filename--` and prevents it from being interpreted as a command-line option.
 	
 - **Linux Escape character:** `\` used to escape the next character to prevent linux from interpret it as a part from the command Using
     
