@@ -17,18 +17,18 @@ This repository is part of my hands-on learning journey in cybersecurity, focusi
 ```text
 bandit-security-notes/
 ├── README.md
-└── walkthoughs/
-|    ├── level-0.md
-|    ├── level 0 -> level 1.md
-|    ├── level 1 -> level 2.md
+└── walkthroughs/
+|    ├── Level 0 → Level 1.md
+|    ├── Level 1 → Level 2.md
+|    ├── Level 2 → Level 3.md
 |    └── ...
 └── photos/
-	 ├── level 0
-	 |	 ├── level-0-part-1.png
-	 |	 ├── level-0-part-2.png
-	 |	 └── ...
 	 ├── level-0-to-1
 	 |	 ├── level-0-to-1-part-1.png
+	 |	 ├── level-0-to-1-part-2.png
+	 |	 └── ...
+	 ├── level-1-to-2
+	 |	 ├── level-1-to-2-part-1.png
 	 |	 └── ...
 	 └─── ...
 ```
@@ -119,7 +119,7 @@ Explain each command and why it works.
 
 Describe what you understood from this level and what you would do differently next time.
 
-### POC
+### Screenshots
 
 photos to prove the walkthrough in the level
 ### References
