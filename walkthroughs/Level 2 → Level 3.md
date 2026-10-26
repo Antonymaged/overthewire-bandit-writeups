@@ -9,8 +9,7 @@ start an encrypted connection using #ssh by specifying the user (**<span style="
 
 ``` bash
 	~ ssh <user_name>@<domain_name> -p <port_number>
-	~ yes # you will need it in the first time you connecet to the target
-	~ <type_the_password>
+	~ <type_the_password> # for the user you have obtained from the last level
 	~ cd
 	~ ls -la
 	~ cat <file_to_Read> #(the Readme file which containg the password for the 
@@ -19,7 +18,6 @@ start an encrypted connection using #ssh by specifying the user (**<span style="
 
 ``` bash
 	~ ssh bandit2@bandit.labs.overthewire.org -p 2220
-	~ yes #if asked
 	~ <password_from_the_last_level>
 	~ cd # or cd $HOME
 	~ ls -la # to read all the current directory contents even the hiden one and                  data about each one

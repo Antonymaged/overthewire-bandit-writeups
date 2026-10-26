@@ -9,8 +9,7 @@ start an encrypted connection using #ssh by specifying the user (**<span style="
 
 ``` bash
 	~ ssh <user_name>@<domain_name> -p <port_number>
-	~ yes # you will need it in the first time you connecet to the target
-	~ <type_the_password>
+	~ <type_the_password> # for the user you have obtained from the last level
 	~ cd
 	~ ls -la
 	~ cat <file_to_Read> #(the Readme file which containg the password for the 
