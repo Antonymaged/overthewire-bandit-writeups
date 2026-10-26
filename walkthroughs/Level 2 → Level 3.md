@@ -9,7 +9,7 @@ start an encrypted connection using #ssh by specifying the user (**<span style="
 
 ``` bash
 	~ ssh <user_name>@<domain_name> -p <port_number>
-	~ yes
+	~ yes # you will need it in the first time you connecet to the target
 	~ <type_the_password>
 	~ cd
 	~ ls -la
@@ -57,8 +57,8 @@ start an encrypted connection using #ssh by specifying the user (**<span style="
     
 - **Retrieving Passwords:** Use `cat` to read the contents of a file and obtain the password required to access the next Bandit level.
 
-# POC
+# Screenshot
 
 ![level-2-to-3-part-1](../photos/level-2-to-3/level-2-to-3-part-1.png)
 
-![level-2-to-3-part-1](../photos/level-2-to-3/level-2-to-3-part-2.png)
+![level-2-to-3-part-2](../photos/level-2-to-3/level-2-to-3-part-2.png)

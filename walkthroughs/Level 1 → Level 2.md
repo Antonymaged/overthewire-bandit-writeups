@@ -9,7 +9,7 @@ start an encrypted connection using #ssh by specifying the user (**<span style="
 
 ``` bash
 	~ ssh <user_name>@<domain_name> -p <port_number>
-	~ yes
+	~ yes # you will need it in the first time you connecet to the target
 	~ <type_the_password>
 	~ cd
 	~ ls -la
@@ -19,7 +19,6 @@ start an encrypted connection using #ssh by specifying the user (**<span style="
 
 ``` bash
 	~ ssh bandit1@bandit.labs.overthewire.org -p 2220
-	~ yes
 	~ <password_from_the_last_level>
 	~ cd # or cd $HOME
 	~ ls -la # to read all the current directory contents even the hiden one and                  data about each one
@@ -53,8 +52,10 @@ start an encrypted connection using #ssh by specifying the user (**<span style="
 - Special filenames, such as `-`, may be interpreted as command-line options; use `./-` to reference the file explicitly.
     
 - Each Bandit level builds practical Linux command-line skills, and the password obtained from one level is used to access the next.
-# POC
+# Screenshots
 
-![level-1-to-2-part-1.png](level-1-to-2-part-1.png)
-![level 0 ->1 part1](level-1-to-2-part-2.png)
-![level 0 ->1 part1](level-1-to-2-part-3.png)
+![level-1-to-2-part-1](../photos/level-1-to-2/level-1-to-2-part-1.png)
+
+![level-1-to-2-part-2](../photos/level-1-to-2/level-1-to-2-part-2.png)
+
+![level-1-to-2-part-3](../photos/level-1-to-2/level-1-to-2-part-3.png)

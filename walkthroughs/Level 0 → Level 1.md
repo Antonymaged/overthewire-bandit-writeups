@@ -12,7 +12,7 @@ start an encrypted connection using #ssh by specifying the user (**<span style="
 
 ``` bash
 	~ ssh <user_name>@<domain_name> -p <port_number>
-	~ yes
+	~ yes # you will need it in the first time you connecet to the target
 	~ <type_the_password>
 	~ cat <file_to_Read> #(the Readme file which containg the password for the 
 						 #next level)
@@ -27,7 +27,7 @@ start an encrypted connection using #ssh by specifying the user (**<span style="
 
 # Explanation
 
-#### ssh --> used to establish a remote connection using the ssh protocol running on port 22
+#### ssh --> used to establish a remote connection using the ssh protocol running on port 22 by default how ever our target is running on 2220 we use the `-p` parameter to use the ssh with the new port
 
 #### <user_name>@<domain_name> --> specifying the exact user we want to log in exactly on what device and we can use a domain name or an ip both will work with no problems
 
@@ -52,8 +52,8 @@ start an encrypted connection using #ssh by specifying the user (**<span style="
 	
 - how to chose what port we want to connect to how ever ssh run by default on port 22
 
-# POC
+# Screenshots
 
-![Level 0 - Part 1](../photos/level-0-to-1/level-0-to-1-part-1.png)
+![level-0-to-1-part-1](../photos/level-0-to-1/level-0-to-1-part-1.png)
 
-![Level 0 - Part 2](overthewire-bandit-writeups/photos/level-0-to-1/level-0-to-1-part-1.png)
+![Level 0 - Part 1](level-0-to-1-part-2.png)
