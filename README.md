@@ -66,6 +66,8 @@ These notes are intended for educational purposes. If you are working through Ba
 
 **Passwords, flags, and other game credentials are intentionally excluded.** The focus is on documenting the techniques and reasoning used to solve each challenge.
 
+Initial credentials explicitly provided by OverTheWire are documented when needed to explain the challenge setup. Passwords discovered while solving subsequent levels are intentionally excluded to preserve the challenge experience.
+
 ## 🔗 References
 
 - [OverTheWire Bandit](https://overthewire.org/wargames/bandit/)
