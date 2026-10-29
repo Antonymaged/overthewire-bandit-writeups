@@ -1,9 +1,10 @@
 # Objective
+
 This level introduces basic Linux file navigation and file-reading commands. The goal is to locate the **`--spaces in this filename--`** file in the current directory and use `cat` to read its contents and obtain the password for the next level.
 
 # Approach
 
-start an encrypted connection using #ssh by specifying the user (**<span style="color:lightgreen; font-size: 20px">bandit2</span>**) password (**<span style="color:lightgreen; font-size:20px;">obtained from the last level readme file</span>**) to the domain name **<span style="color:lightblue;">bandit.labs.overthewire.org</span>** with port number **<span style="color:lightblue;">2220</span>**
+start an encrypted connection using #ssh by specifying the user (**<span style="color:lightgreen; font-size: 20px">bandit2</span>**) password (**<span style="color:lightgreen; font-size:20px;">obtained from the last level readme file</span>**) to the domain name **<span style="color:lightblue;">bandit.labs.overthewire.org</span>** with port number **<span style="color:lightblue;">2220</span>** then read the **`--spaces in this filename--`** file using the <span style="color:yellow">cat</span> command with specifying the location of the file and adding the escaping character (<span style="color:green"> \ </span>) before every space in the file name
 
 # Commands Used
 
@@ -32,9 +33,7 @@ start an encrypted connection using #ssh by specifying the user (**<span style="
 
 #### <user_name>@<domain_name> --> specifying the exact user we want to log in exactly on what device and we can use a domain name or an ip both will work with no problems
 
-#### yes --> when we try to connect to a remote machine the first time we do it the machine will ask us if we trust to make a connection with the other device
-
-#### \<password> --> if we chose yes then it prompt us to type a password of the user we try to connect to
+#### \<password> --> After establishing the SSH connection, the client prompts us to enter the password associated with the specified user.
 
 #### cd --> cd is used to change the directory we are in when we type it alone it change the directory to the home directory of the user by default however in this level we don't have to use it because we start our session in the home of the user by default
 #### cat <file_name> (./--spaces\ in\ this\ filename--) --> to read the contents of the **<span style="color:cyan">--spaces in this filename--</span>** file to get the password for the next level but there is a problem which is the filename ( --spaces in this filename-- ) because it can trick the cat command because it can see it as a start of a flag and there is a spaces in the file name we solve this by adding the (./) part in the beginning of the command to tell cat it's a file name by giving it the location of the file and we add the (<span style="color:green"> \ </span>) it's called the escape character it's used to escape the parts you don't want the program to interpret something you use it when you want to pass it as a normal string

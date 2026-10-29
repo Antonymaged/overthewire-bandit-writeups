@@ -64,9 +64,7 @@ Progress will be documented through individual level write-ups as I complete the
 
 These notes are intended for educational purposes. If you are working through Bandit yourself, try solving each challenge before reading the corresponding write-up.
 
-**Passwords, flags, and other game credentials are intentionally excluded.** The focus is on documenting the techniques and reasoning used to solve each challenge.
-
-Initial credentials explicitly provided by OverTheWire are documented when needed to explain the challenge setup. Passwords discovered while solving subsequent levels are intentionally excluded to preserve the challenge experience.
+**Passwords, flags, and other game credentials are intentionally excluded.** The focus is on documenting the techniques and reasoning used to solve each challenge, Unless they are part of the challenge and been provided by OverTheWire.
 
 ## 🔗 References
 

@@ -4,7 +4,7 @@ This level introduces basic Linux file navigation and file-reading commands. The
 
 # Approach
 
-start an encrypted connection using #ssh by specifying the user (**<span style="color:lightgreen; font-size: 20px">bandit1</span>**) password (**<span style="color:lightgreen; font-size:20px;">obtained from the last level readme file</span>**) to the domain name **<span style="color:lightblue;">bandit.labs.overthewire.org</span>** with port number **<span style="color:lightblue;">2220</span>** 
+start an encrypted connection using #ssh by specifying the user (**<span style="color:lightgreen; font-size: 20px">bandit1</span>**) password (**<span style="color:lightgreen; font-size:20px;">obtained from the last level readme file</span>**) to the domain name **<span style="color:lightblue;">bandit.labs.overthewire.org</span>** with port number **<span style="color:lightblue;">2220</span>**  then read the **<span style="color:cyan">-</span>** file using the <span style="color:yellow">cat</span> command with specifying the location of the file
 # Commands Used
 
 **`~`** means a new step or command not  a part of the command itself you shouldn't write it every with every new command
@@ -31,10 +31,7 @@ start an encrypted connection using #ssh by specifying the user (**<span style="
 #### ssh --> used to establish a remote connection using the ssh protocol running on port 22 by default how ever our target is running on 2220 we use the `-p` parameter to use the ssh with the new port
 
 #### <user_name>@<domain_name> --> specifying the exact user we want to log in exactly on what device and we can use a domain name or an ip both will work with no problems
-
-#### yes --> when we try to connect to a remote machine the first time we do it the machine will ask us if we trust to make a connection with the other device
-
-#### \<password> --> if we chose yes then it prompt us to type a password of the user we try to connect to
+#### \<password> --> After establishing the SSH connection, the client prompts us to enter the password associated with the specified user.
 
 #### cd --> cd is used to change the directory we are in when we type it alone it change the directory to the home directory of the user by default however in this level we don't have to use it because we start our session in the home of the user by default
 #### cat <file_name> (./-) --> to read the contents of the **<span style="color:cyan">-</span>** file to get the password for the next level but there is a problem which is the filename ( - ) because it can trick the cat command because it can see it as a start of a flag so we write it with it's location in the directory tree to specify it's a file in the directory tree
