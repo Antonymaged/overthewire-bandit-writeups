@@ -29,7 +29,7 @@ start an encrypted connection using #ssh by specifying the user (**<span style="
 
 # Explanation
 
-#### ssh --> used to establish a remote connection using the ssh protocol running on port 22 by default how ever our target is running on 2220 we use the `-p` parameter to use the ssh with the new port
+#### ssh --> used to establish a remote connection using the ssh protocol running on port 22 by default however our target is running on 2220 we use the `-p` parameter to use the ssh with the new port
 
 #### <user_name>@<domain_name> --> specifying the exact user we want to log in exactly on what device and we can use a domain name or an ip both will work with no problems
 
@@ -52,7 +52,7 @@ start an encrypted connection using #ssh by specifying the user (**<span style="
 	
 - what parameters and flow we need to specify to make the connection
 	
-- how to chose what port we want to connect to how ever ssh run by default on port 22
+- how to chose what port we want to connect to however ssh run by default on port 22
 
 # Screenshots
 
