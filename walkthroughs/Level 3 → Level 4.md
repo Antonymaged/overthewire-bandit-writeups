@@ -15,7 +15,7 @@ start an encrypted connection using #ssh by specifying the user (**<span style="
 	~ <type_the_password> # for the user you have obtained from the last level
 	~ ls
 	~ cd <directory_name> # to change directory to the directory of the file to                                read
-	~ ls -la # to read all the contents even the hiden one's and display all data
+	~ ls -la # to read all the contents even the hidden one's and display all data
 	~ cat <file_to_Read> #(the Readme file which containg the password for the 
 						 #next level)
 ```
@@ -25,7 +25,7 @@ start an encrypted connection using #ssh by specifying the user (**<span style="
 	~ <password_from_the_last_level>
 	~ ls # to list the contents of the directory
 	~ cd ./inhere
-	~ ls -la # to read all the current directory contents even the hiden one and                  data about each one
+	~ ls -la # to read all the current directory contents even the hidden one and                  data about each one
 	~ cat ./...Hiding-From-You 
 ```
 
